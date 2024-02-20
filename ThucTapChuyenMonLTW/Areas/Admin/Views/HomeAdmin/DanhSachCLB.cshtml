@@ -1,0 +1,68 @@
+﻿@model IEnumerable<ThucTapChuyenMonLTW.Models.TblClb>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "DanhSachCLB";
+    Layout = "~/Areas/Admin/Views/Shared/LayoutAdmin.cshtml";
+}
+
+<h1>DanhSachCLB</h1>
+<div class="col-lg-4 col-6 text-left">
+    @using (Html.BeginForm("TimKiemCLB", "HomeAdmin"))
+    {
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text bg-transparent text-primary">
+                    <i class="fa fa-search"></i>
+                </span>
+            </div>
+            <input type="text" name="strSearch" class="form-control" placeholder="Tìm người dùng">
+        </div>
+    }
+</div>
+<p>
+    <a asp-area="Admin" asp-controller="HomeAdmin" asp-action="ThemCLB">Create New</a>
+</p>
+<p>
+    @TempData["Message"]
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Tên CLB
+            </th>
+            <th>
+               Tên SVD
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LogoClb)
+            </th>
+            <th>
+               Tên quốc gia
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenClb)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenSvd)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LogoClb)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdQuocGiaNavigation.TenQuocGia)
+            </td>
+            <td>
+                <a asp-action="SuaCLB" asp-route-maclb="@item.IdClb">Edit</a> |
+                    <a asp-action="XoaCLB" asp-route-maclb="@item.IdClb">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

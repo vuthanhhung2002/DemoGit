@@ -1,0 +1,44 @@
+﻿@model ThucTapChuyenMonLTW.Models.TblBanThang
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "ThemBanThang";
+    Layout = "~/Areas/Admin/Views/Shared/LayoutAdmin.cshtml";
+}
+
+<h1>ThemBanThang</h1>
+
+<h4>TblBanThang</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" asp-action="ThemBanThang">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="IdBanThang" class="control-label"></label>
+                <input asp-for="IdBanThang" class="form-control" />
+                <span asp-validation-for="IdBanThang" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdTran" class="control-label"></label>
+                <select asp-for="IdTran" class ="form-control" asp-items="ViewBag.IdTran"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdCauThu" class="control-label"></label>
+                <select asp-for="IdCauThu" class ="form-control" asp-items="ViewBag.IdCauThu"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="ThoiGian" class="control-label"></label>
+                <input asp-for="ThoiGian" class="form-control" />
+                <span asp-validation-for="ThoiGian" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="DanhSachBanThang">Back to List</a>
+</div>
+

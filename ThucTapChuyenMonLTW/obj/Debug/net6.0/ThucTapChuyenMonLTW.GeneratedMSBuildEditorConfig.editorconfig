@@ -1,0 +1,205 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ThucTapChuyenMonLTW
+build_property.RootNamespace = ThucTapChuyenMonLTW
+build_property.ProjectDir = C:\Users\Vu Thanh Hung\Downloads\cv\ThucTapChuyenMonLTW\ThucTapChuyenMonLTW\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Vu Thanh Hung\Downloads\cv\ThucTapChuyenMonLTW\ThucTapChuyenMonLTW
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Vu Thanh Hung/Downloads/cv/ThucTapChuyenMonLTW/ThucTapChuyenMonLTW/Areas/Admin/Views/HomeAdmin/DanhSachBanThang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXERhbmhTYWNoQmFuVGhhbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vu Thanh Hung/Downloads/cv/ThucTapChuyenMonLTW/ThucTapChuyenMonLTW/Areas/Admin/Views/HomeAdmin/DanhSachCauThu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXERhbmhTYWNoQ2F1VGh1LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vu Thanh Hung/Downloads/cv/ThucTapChuyenMonLTW/ThucTapChuyenMonLTW/Areas/Admin/Views/HomeAdmin/DanhSachCLB.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXERhbmhTYWNoQ0xCLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vu Thanh Hung/Downloads/cv/ThucTapChuyenMonLTW/ThucTapChuyenMonLTW/Areas/Admin/Views/HomeAdmin/DanhSachGiaiDau.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXERhbmhTYWNoR2lhaURhdS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vu Thanh Hung/Downloads/cv/ThucTapChuyenMonLTW/ThucTapChuyenMonLTW/Areas/Admin/Views/HomeAdmin/DanhSachHLV.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXERhbmhTYWNoSExWLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vu Thanh Hung/Downloads/cv/ThucTapChuyenMonLTW/ThucTapChuyenMonLTW/Areas/Admin/Views/HomeAdmin/DanhSachQuocGia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXERhbmhTYWNoUXVvY0dpYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vu Thanh Hung/Downloads/cv/ThucTapChuyenMonLTW/ThucTapChuyenMonLTW/Areas/Admin/Views/HomeAdmin/DanhSachTranDau.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXERhbmhTYWNoVHJhbkRhdS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vu Thanh Hung/Downloads/cv/ThucTapChuyenMonLTW/ThucTapChuyenMonLTW/Areas/Admin/Views/HomeAdmin/DanhSachUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXERhbmhTYWNoVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vu Thanh Hung/Downloads/cv/ThucTapChuyenMonLTW/ThucTapChuyenMonLTW/Areas/Admin/Views/HomeAdmin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vu Thanh Hung/Downloads/cv/ThucTapChuyenMonLTW/ThucTapChuyenMonLTW/Areas/Admin/Views/HomeAdmin/SuaBanThang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFN1YUJhblRoYW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vu Thanh Hung/Downloads/cv/ThucTapChuyenMonLTW/ThucTapChuyenMonLTW/Areas/Admin/Views/HomeAdmin/SuaCauThu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFN1YUNhdVRodS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vu Thanh Hung/Downloads/cv/ThucTapChuyenMonLTW/ThucTapChuyenMonLTW/Areas/Admin/Views/HomeAdmin/SuaCLB.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFN1YUNMQi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vu Thanh Hung/Downloads/cv/ThucTapChuyenMonLTW/ThucTapChuyenMonLTW/Areas/Admin/Views/HomeAdmin/SuaGiaiDau.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFN1YUdpYWlEYXUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vu Thanh Hung/Downloads/cv/ThucTapChuyenMonLTW/ThucTapChuyenMonLTW/Areas/Admin/Views/HomeAdmin/SuaHLV.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFN1YUhMVi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vu Thanh Hung/Downloads/cv/ThucTapChuyenMonLTW/ThucTapChuyenMonLTW/Areas/Admin/Views/HomeAdmin/SuaQuocGia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFN1YVF1b2NHaWEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vu Thanh Hung/Downloads/cv/ThucTapChuyenMonLTW/ThucTapChuyenMonLTW/Areas/Admin/Views/HomeAdmin/SuaTranDau.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFN1YVRyYW5EYXUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vu Thanh Hung/Downloads/cv/ThucTapChuyenMonLTW/ThucTapChuyenMonLTW/Areas/Admin/Views/HomeAdmin/SuaUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFN1YVVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vu Thanh Hung/Downloads/cv/ThucTapChuyenMonLTW/ThucTapChuyenMonLTW/Areas/Admin/Views/HomeAdmin/ThemBanThang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFRoZW1CYW5UaGFuZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vu Thanh Hung/Downloads/cv/ThucTapChuyenMonLTW/ThucTapChuyenMonLTW/Areas/Admin/Views/HomeAdmin/ThemCauThu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFRoZW1DYXVUaHUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vu Thanh Hung/Downloads/cv/ThucTapChuyenMonLTW/ThucTapChuyenMonLTW/Areas/Admin/Views/HomeAdmin/ThemCLB.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFRoZW1DTEIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vu Thanh Hung/Downloads/cv/ThucTapChuyenMonLTW/ThucTapChuyenMonLTW/Areas/Admin/Views/HomeAdmin/ThemGiaiDau.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFRoZW1HaWFpRGF1LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vu Thanh Hung/Downloads/cv/ThucTapChuyenMonLTW/ThucTapChuyenMonLTW/Areas/Admin/Views/HomeAdmin/ThemHLV.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFRoZW1ITFYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vu Thanh Hung/Downloads/cv/ThucTapChuyenMonLTW/ThucTapChuyenMonLTW/Areas/Admin/Views/HomeAdmin/ThemQuocGia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFRoZW1RdW9jR2lhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vu Thanh Hung/Downloads/cv/ThucTapChuyenMonLTW/ThucTapChuyenMonLTW/Areas/Admin/Views/HomeAdmin/ThemTranDau.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFRoZW1UcmFuRGF1LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vu Thanh Hung/Downloads/cv/ThucTapChuyenMonLTW/ThucTapChuyenMonLTW/Areas/Admin/Views/HomeAdmin/ThemUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFRoZW1Vc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vu Thanh Hung/Downloads/cv/ThucTapChuyenMonLTW/ThucTapChuyenMonLTW/Areas/Admin/Views/HomeAdmin/TimKiemBT.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFRpbUtpZW1CVC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vu Thanh Hung/Downloads/cv/ThucTapChuyenMonLTW/ThucTapChuyenMonLTW/Areas/Admin/Views/HomeAdmin/TimKiemCLB.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFRpbUtpZW1DTEIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vu Thanh Hung/Downloads/cv/ThucTapChuyenMonLTW/ThucTapChuyenMonLTW/Areas/Admin/Views/HomeAdmin/TimKiemCT.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFRpbUtpZW1DVC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vu Thanh Hung/Downloads/cv/ThucTapChuyenMonLTW/ThucTapChuyenMonLTW/Areas/Admin/Views/HomeAdmin/TimKiemTD.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFRpbUtpZW1URC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vu Thanh Hung/Downloads/cv/ThucTapChuyenMonLTW/ThucTapChuyenMonLTW/Areas/Admin/Views/HomeAdmin/TimKiemUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFRpbUtpZW1Vc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vu Thanh Hung/Downloads/cv/ThucTapChuyenMonLTW/ThucTapChuyenMonLTW/Areas/Admin/Views/Shared/LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXExheW91dEFkbWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vu Thanh Hung/Downloads/cv/ThucTapChuyenMonLTW/ThucTapChuyenMonLTW/Views/Access/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNzXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vu Thanh Hung/Downloads/cv/ThucTapChuyenMonLTW/ThucTapChuyenMonLTW/Views/Access/Signup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNzXFNpZ251cC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vu Thanh Hung/Downloads/cv/ThucTapChuyenMonLTW/ThucTapChuyenMonLTW/Views/Home/CauThuTheoCauLacBo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXVUaHVUaGVvQ2F1TGFjQm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vu Thanh Hung/Downloads/cv/ThucTapChuyenMonLTW/ThucTapChuyenMonLTW/Views/Home/ChiTietCauThu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaGlUaWV0Q2F1VGh1LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vu Thanh Hung/Downloads/cv/ThucTapChuyenMonLTW/ThucTapChuyenMonLTW/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vu Thanh Hung/Downloads/cv/ThucTapChuyenMonLTW/ThucTapChuyenMonLTW/Views/Home/LichThiDau.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMaWNoVGhpRGF1LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vu Thanh Hung/Downloads/cv/ThucTapChuyenMonLTW/ThucTapChuyenMonLTW/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vu Thanh Hung/Downloads/cv/ThucTapChuyenMonLTW/ThucTapChuyenMonLTW/Views/Home/TimKiem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUaW1LaWVtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vu Thanh Hung/Downloads/cv/ThucTapChuyenMonLTW/ThucTapChuyenMonLTW/Views/Shared/Components/CauLacBoMenu/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2F1TGFjQm9NZW51XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vu Thanh Hung/Downloads/cv/ThucTapChuyenMonLTW/ThucTapChuyenMonLTW/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vu Thanh Hung/Downloads/cv/ThucTapChuyenMonLTW/ThucTapChuyenMonLTW/Views/Shared/PartialCauThu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxDYXVUaHUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vu Thanh Hung/Downloads/cv/ThucTapChuyenMonLTW/ThucTapChuyenMonLTW/Views/Shared/thuctap.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXHRodWN0YXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vu Thanh Hung/Downloads/cv/ThucTapChuyenMonLTW/ThucTapChuyenMonLTW/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vu Thanh Hung/Downloads/cv/ThucTapChuyenMonLTW/ThucTapChuyenMonLTW/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vu Thanh Hung/Downloads/cv/ThucTapChuyenMonLTW/ThucTapChuyenMonLTW/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vu Thanh Hung/Downloads/cv/ThucTapChuyenMonLTW/ThucTapChuyenMonLTW/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-zgzyov1nfz

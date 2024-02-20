@@ -1,0 +1,31 @@
+﻿
+@model ThucTapChuyenMonLTW.ViewModels.ChiTietCauThuViewModel
+@{
+    ViewData["Title"] = "ChiTietCauThu";
+    Layout = "~/Views/Shared/thuctap.cshtml";
+}
+
+<div class="colorlib-product">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-8" style="text-align:center">
+				<div class="product-entry" >
+					<a href="#" class="prod-img" style="height: 400px;width:500px" >
+						<img src="../anhct/@Model.dscauthu.Anh" class="img-fluid" alt="Free html5 bootstrap 4 template" style="height:100%; width:100%">
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-4" style="text-align:center">
+				<div class="product-desc" style="margin-left: 60px">
+					<h1>@Model.dscauthu.Hoten</h1>
+					<h2>Câu lạc bộ @Model.dscauthu.IdClbNavigation.TenClb</h2>
+					<h3>Ngày sinh: @Model.dscauthu.Ngaysinh?.ToString("dd/MM/yyyy")</h3>
+					<h3>Vị trí: @Model.dscauthu.Vitri</h3>
+					<h3>Số áo: @Model.dscauthu.Soao</h3>
+					<h3>Quốc tịch: @Model.dscauthu.QuocTich</h3>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>

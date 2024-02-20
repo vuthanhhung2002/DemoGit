@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewData["Title"] = "CauThuTheoCauLacBo";
+    Layout = "~/Views/Shared/thuctap.cshtml";
+}
+@using X.PagedList.Mvc.Core;
+@model X.PagedList.IPagedList<TblCauThu>
+<h1 class="col-sm-12" style="text-align:center">Các cầu thủ</h1>
+@foreach (var item in Model)
+{
+	
+	@await Html.PartialAsync("PartialCauThu", item)
+}
+<div class="row col-sm-12">
+<div class="product__pagination">
+	@Html.PagedListPager(Model, page=>Url.Action("CauThuTheoCauLacBo", new{page=page,
+	mact =ViewBag.mact}))
+	</div>
+</div>
+
+

@@ -1,0 +1,97 @@
+﻿@model ThucTapChuyenMonLTW.Models.TblUser
+
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "SignUp";
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Đăng nhập</title>
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="../../LayoutAdmin/assets/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="../../LayoutAdmin/assets/vendors/css/vendor.bundle.base.css">
+    <!-- endinject -->
+    <!-- Plugin css for this page -->
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <!-- endinject -->
+    <!-- Layout styles -->
+    <link rel="stylesheet" href="../../LayoutAdmin/assets/css/style.css">
+    <!-- End layout styles -->
+    <link rel="shortcut icon" href="../../LayoutAdmin/assets/images/favicon.ico" />
+</head>
+<body>
+    <div class="container-scroller">
+        <div class="container-fluid page-body-wrapper full-page-wrapper"  >
+            <div class="content-wrapper d-flex align-items-center auth">
+                <div class="row flex-grow">
+                    <div class="col-lg-4 mx-auto">
+                        <div class="auth-form-light text-left p-5" >
+                            <div class="brand-logo">
+                                <h1>ĐĂNG KÝ</h1>
+                            </div>
+                            <form method="post" asp-action="Signup">
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                <div class="form-group">
+                                    <label asp-for="IdUser" class="control-label"></label>
+                                    <input asp-for="IdUser" class="form-control" />
+                                    <span asp-validation-for="IdUser" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="Hoten" class="control-label">Họ và tên</label>
+                                    <input asp-for="Hoten" class="form-control" />
+                                    <span asp-validation-for="Hoten" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="Dchi" class="control-label"> Địa chỉ</label>
+                                    <input asp-for="Dchi" class="form-control" />
+                                    <span asp-validation-for="Dchi" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="Sodt" class="control-label"> Số điện thoại</label>
+                                    <input asp-for="Sodt" class="form-control" />
+                                    <span asp-validation-for="Sodt" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="Email" class="control-label">Email</label>
+                                    <input asp-for="Email" class="form-control" />
+                                    <span asp-validation-for="Email" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="Pass" class="control-label">Mật khẩu</label>
+                                    <input asp-for="Pass" class="form-control" />
+                                    <span asp-validation-for="Pass" class="text-danger"></span>
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="submit" value="Create" class="btn btn-primary" />
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- content-wrapper ends -->
+        </div>
+        <!-- page-body-wrapper ends -->
+    </div>
+    <!-- container-scroller -->
+    <!-- plugins:js -->
+    <script src="../../LayoutAdmin/assets/vendors/js/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page -->
+    <!-- End plugin js for this page -->
+    <!-- inject:js -->
+    <script src="../../LayoutAdmin/assets/js/off-canvas.js"></script>
+    <script src="../../LayoutAdmin/assets/js/hoverable-collapse.js"></script>
+    <script src="../../LayoutAdmin/assets/js/misc.js"></script>
+    <!-- endinject -->
+</body>
+</html>
+
+

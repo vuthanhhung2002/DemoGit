@@ -1,0 +1,31 @@
+﻿@model ThucTapChuyenMonLTW.Models.TblGiaiDau
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "SuaGiaiDau";
+    Layout = "~/Areas/Admin/Views/Shared/LayoutAdmin.cshtml";
+}
+
+<h1>SuaGiaiDau</h1>
+
+<h4>TblGiaiDau</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" asp-action="SuaGiaiDau">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="IdGiaiDau" />
+            <div class="form-group">
+                <label asp-for="TenGiaiDau" class="control-label"></label>
+                <input asp-for="TenGiaiDau" class="form-control" />
+                <span asp-validation-for="TenGiaiDau" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="DanhSachGiaiDau">Back to List</a>
+</div>

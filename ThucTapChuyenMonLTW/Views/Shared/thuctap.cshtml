@@ -1,0 +1,156 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/site.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+    <style>
+       
+
+    </style>
+  
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid" style="margin-bottom:20px">
+        <nav class="navbar navbar-expand-lg bg-dark ">
+            <a class="navbar-brand"asp-controller="Home" asp-action="Index" style="color:#B98F52">Bóng đá</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#club-menu" aria-controls="club-menu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="club-menu">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    @await Component.InvokeAsync("CauLacBoMenu")
+                </ul>
+                <ul class="navbar-nav">
+                    <div class="col-lg-4 col-6 text-left">
+                        @using (Html.BeginForm("TimKiem", "Home"))
+                        {
+                            <div class="input-group">
+                                <input type="text" name="strSearch" class="form-control" placeholder="Tìm cầu thủ">
+                                <div class="input-group-append">
+                                    <span class="input-group-text bg-transparent text-primary">
+                                        <i class="fa fa-search"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        }
+                        </div>
+                    <li class="nav-item">
+                        <a class="nav-link custom-color" asp-controller="Home" asp-action="LichThiDau">Lịch Thi Đấu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link custom-color" asp-controller="Access" asp-action="Logout">Đăng xuất<i class="fa fa-sign-out-alt ml-2"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="container-fluid" style="margin-bottom: 30px">
+        
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="@Url.Content("../anhct/anhnen1.jpg")" alt="" >
+                    <div class="carousel-caption">
+                        <h3>Chào mừng bạn </h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="@Url.Content("../anhct/anhnen4.jpg")" alt="" >
+                    <div class="carousel-caption">
+                        <h3>đến với trang web của</h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="@Url.Content("../anhct/anhnen3.jpg")" alt="" >
+                    <div class="carousel-caption">
+                        <h3>bóng đá</h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+
+        </div>
+
+
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('#myCarousel').carousel();
+        });
+    </script>
+    <div class="container" style="margin-bottom:20px">
+        <div style="text-align: center">
+            
+        </div>
+        <div class="row">
+           @RenderBody()
+        </div>
+ 
+    </div>
+    <footer id="demo1">
+        <div class="container">
+            <h3>Nhà tài trợ</h3>
+            <div class="row">
+                <div class="col-12 logo-container">
+
+                    <img src="../anhct/uefa.jpg" alt="Logo nhà tài trợ 1">
+                    <img src="../anhct/fifa.jpg" alt="Logo nhà tài trợ 2">
+                    <img src="../anhct/brand-1.jpg" alt="Logo nhà tài trợ 3">
+                    <img src="../anhct/brand-2.jpg" alt="Logo nhà tài trợ 4">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <footer id="demo2">
+        <div class="container lol">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Về chúng tôi</h3>
+                    <p>Chúng tôi là một trang web chuyên cung cấp thông tin về bóng đá cho người hâm mộ.</p>
+                    <p>Theo dõi chúng tôi trên:</p>
+                    <ul class="social-icons">
+                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h3>Liên hệ</h3>
+                    <p>Email: vuthanhhung2002@gmail.com</p>
+                    <p>Địa chỉ:Đông Anh,Hà Nội </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+</body>
+</html>

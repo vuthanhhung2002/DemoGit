@@ -1,0 +1,189 @@
+﻿body {
+}
+
+.custom-color {
+    color: bisque;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+
+/*css cầu thủ*/
+.player-card {
+    text-align: center;
+    padding: 10px;
+}
+
+div .col-md-4 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.player-card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10%;
+    margin-bottom: 10px;
+}
+
+.player-card h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+h1 {
+    color: #3DB8D7; /* màu chữ */
+    font-size: 48px; /* kích thước chữ */
+    text-shadow: 4px 4px 8px rgba(0,0,0,0.5); /* hiệu ứng text-shadow */
+}
+
+
+
+/*css slide*/
+.container-fluild {
+    margin-bottom: 300px
+}
+.carousel-item {
+    height: 500px;
+}
+
+.carousel-caption {
+    bottom: 50px;
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 90%;
+}
+
+.carousel-inner {
+    text-align: center;
+}
+
+
+/*css tran dau*/
+.match-container {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.team {
+    width: 300px;
+    border: 1px dashed gray;
+    padding: 15px;
+}
+
+.left-team {
+    margin-right: 20px;
+    color: whitesmoke;
+}
+
+.right-team {
+    margin-left: 20px;
+    color: whitesmoke;
+}
+
+#adh1 {
+    color: #3DB8D7;
+    text-shadow: 4px 4px 8px rgba(255, 255, 255, 1);
+}
+
+
+
+/*css footer*/
+
+#demo1 {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+footer h3 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#demo1 h3 {
+    color: #3DB8D7;
+    text-shadow: 4px 4px 8px rgba(0,0,0,0.5);
+    ;
+}
+
+#demo2 p {
+    color: whitesmoke;
+}
+
+#demo2 h3 {
+    color: whitesmoke;
+}
+
+.logo-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+    .logo-container img {
+        width: 100px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+
+
+
+footer {
+    background-color: #534848;
+    padding: 50px 0;
+}
+
+h3 {
+    margin-bottom: 20px;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+    .social-icons li:last-child {
+        margin-right: 0;
+    }
+
+.social-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #007bff;
+}
+
+    .social-icons a:hover {
+        background-color: #0056b3;
+    }
+
+p {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+

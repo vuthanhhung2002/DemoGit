@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    Layout = "thuctap";
+}
+@using X.PagedList.Mvc.Core;
+@model X.PagedList.IPagedList<TblCauThu>
+<h1 class="col-sm-12" style="text-align:center">Các cầu thủ</h1>
+@foreach(var item in Model)
+{
+    @await Html.PartialAsync("PartialCauThu", item)
+}
+<br />
+<div class="row col-md-12">
+<div class="product__pagination">
+	@Html.PagedListPager(Model, page=>Url.Action("Index", new{page = page}))
+</div>
+</div>
+
+
+

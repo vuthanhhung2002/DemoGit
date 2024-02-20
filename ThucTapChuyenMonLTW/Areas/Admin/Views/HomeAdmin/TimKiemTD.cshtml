@@ -1,0 +1,90 @@
+﻿
+@{
+    ViewData["Title"] = "TimKiemTD";
+    Layout = "~/Areas/Admin/Views/Shared/LayoutAdmin.cshtml";
+}
+@model IEnumerable<ThucTapChuyenMonLTW.Models.TblTranDau>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@if (Model.Count() == 0)
+{
+    <p>Không tìm thấy kết quả nào.</p>
+}
+else
+{
+    <h1>DanhSachTranDau</h1>
+    <div class="col-lg-4 col-6 text-left">
+        @using (Html.BeginForm("TimKiemTD", "HomeAdmin"))
+        {
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text bg-transparent text-primary">
+                        <i class="fa fa-search"></i>
+                    </span>
+                </div>
+                <input type="text" name="strSearch" class="form-control" placeholder="Tìm trận đấu">
+            </div>
+        }
+    </div>
+    <p>
+        <a asp-area="Admin" asp-controller="HomeAdmin" asp-action="ThemTranDau">Create New</a>
+    </p>
+    <p>
+        @TempData["Message"]
+    </p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Giờ thi đấu
+                </th>
+                <th>
+                    Ngày thi đấu
+                </th>
+                <th>
+                    Kết quả
+                </th>
+                <th>
+                    Đội khách
+                </th>
+                <th>
+                    Đội nhà
+                </th>
+                <th>
+                    Giải dấu
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.GioTd)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Ngaythidau)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.KetQua)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DoiKhachNavigation.TenClb)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DoiNhaNavigation.TenClb)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.GiaiDauNavigation.TenGiaiDau)
+                    </td>
+                    <td>
+                        <a asp-action="SuaTranDau" asp-route-matd="@item.IdTran">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.IdTran">Details</a> |
+                        <a asp-action="XoaTranDau" asp-route-matd="@item.IdTran">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+

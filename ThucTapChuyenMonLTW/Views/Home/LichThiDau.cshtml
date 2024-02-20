@@ -1,0 +1,39 @@
+﻿
+@{
+    ViewData["Title"] = "LichThiDau";
+    Layout = "~/Views/Shared/thuctap.cshtml";
+}
+<link rel="stylesheet" type="text/css" href="../css/trandau.css">
+
+<h1 style="text-align:center" class="col-sm-12">Lịch Thi Đấu</h1>
+<div class="row col-sm-12">
+    @using X.PagedList.Mvc.Core;
+    @model X.PagedList.IPagedList<TblTranDau>
+@foreach(var ltd in Model){
+
+        <div class="match-container col-md-12" style="background-image: url(../anhct/999.jpg);background-size: cover;">
+            <h2 id="adh1">Trận đấu</h2>
+            <h3 style="color:white;">Thời gian:@ltd.GioTd @ltd.Ngaythidau?.ToString("dd/MM/yyyy")</h3>
+            <div class="team-container">
+                <div class="team left-team">
+                    <h3>Đội nhà</h3>
+                    <p>Tên đội: @ltd.DoiNhaNavigation.TenClb</p>
+                    <p>Huy hiệu:</p>
+                    <img src="../anhct/@ltd.DoiNhaNavigation.LogoClb" alt="Huy hiệu đội nhà">
+                </div>
+                <div><h1 style="color:whitesmoke">@ltd.KetQua</h1> </div>
+                <div class="team right-team">
+                    <h3>Đội khách</h3>
+                    <p>Tên đội: @ltd.DoiKhachNavigation.TenClb</p>
+                    <p>Huy hiệu:</p>
+                    <img src="../anhct/@ltd.DoiKhachNavigation.LogoClb" alt="Huy hiệu đội khách">
+                </div>
+            </div>
+        </div>
+}
+</div>
+<div class="row col-md-12">
+    <div class="product__pagination">
+        @Html.PagedListPager(Model, page=>Url.Action("LichThiDau", new{page = page}))
+    </div>
+</div>

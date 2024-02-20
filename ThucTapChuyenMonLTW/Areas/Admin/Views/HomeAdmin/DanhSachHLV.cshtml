@@ -1,0 +1,62 @@
+﻿@model IEnumerable<ThucTapChuyenMonLTW.Models.TblHlv>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "DanhSachHLV";
+    Layout = "~/Areas/Admin/Views/Shared/LayoutAdmin.cshtml";
+}
+
+<h1>DanhSachHLV</h1>
+
+<p>
+    <a asp-area="Admin" asp-controller="HomeAdmin" asp-action="ThemHLV">Create New</a>
+</p>
+<p>
+    @TempData["Message"]
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+               Tên HLV
+            </th>
+            <th>
+                Ngày sinh
+            </th>
+            <th>
+               Quốc Tịch
+            </th>
+            <th>
+                Ảnh
+            </th>
+            <th>
+               Câu lạc bộ
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenHlv)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ngaysinh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Quoctich)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Anh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdClbNavigation.TenClb)
+            </td>
+            <td>
+                <a asp-action="SuaHLV" asp-route-mahlv="@item.IdHlv">Edit</a> |
+                    <a asp-action="XoaHLV" asp-route-mahlv="@item.IdHlv">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

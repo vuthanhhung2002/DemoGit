@@ -1,0 +1,73 @@
+﻿@model IEnumerable<ThucTapChuyenMonLTW.Models.TblBanThang>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "TimKiemBT";
+    Layout = "~/Areas/Admin/Views/Shared/LayoutAdmin.cshtml";
+}
+
+@if (Model.Count() == 0)
+{
+    <p>Không tìm thấy kết quả nào.</p>
+}
+else
+{
+    <h1>DanhSachBanThang</h1>
+    <div class="col-lg-4 col-6 text-left">
+        @using (Html.BeginForm("TimKiemBT", "HomeAdmin"))
+        {
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text bg-transparent text-primary">
+                        <i class="fa fa-search"></i>
+                    </span>
+                </div>
+                <input type="text" name="strSearch" class="form-control" placeholder="Cầu thủ ghi bàn">
+            </div>
+        }
+    </div>
+    <p>
+        <a asp-area="Admin" asp-controller="HomeAdmin" asp-action="ThemBanThang">Create New</a>
+    </p>
+    <p>
+        @TempData["Message"]
+    </p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Thời gian
+                </th>
+                <th>
+                    Tên cầu thủ
+                </th>
+                <th>
+                    Id trận
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ThoiGian)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.IdCauThuNavigation.Hoten)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.IdTranNavigation.IdTran)
+                    </td>
+                    <td>
+                        <a asp-action="SuaBanThang" asp-route-mabt="@item.IdBanThang">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.IdBanThang">Details</a> |
+                        <a asp-action="XoaBanThang" asp-route-mabt="@item.IdBanThang">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+}
+

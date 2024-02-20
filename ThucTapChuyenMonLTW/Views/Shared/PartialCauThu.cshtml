@@ -1,0 +1,11 @@
+﻿@model TblCauThu
+<div class="col-md-4">
+    <div class="player-card">
+        <a asp-controller="Home" asp-action="ChiTietCauThu"
+           asp-route-mact="@Model.IdCauThu">
+            <img src="../anhct/@Model.Anh" alt="Player Image" >
+        </a>
+        <h2>@Model.Hoten</h2>
+        <span>@Model.Vitri</span>
+    </div>
+</div>
